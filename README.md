@@ -17,7 +17,10 @@ Read script yourself for more understanding. Or read the articles above.
 2. Create `unity_search_path.txt` and paste Unity installation directory path (usually `C:\Program Files\Unity\Hub\Editor`) to it _(Optional, but recommended)_
 3. Create `android_ndk_search_path.txt` and paste Android NDK directory path to it _(Optional, but recommended)_
 4. Create directory `TestSources` and place your `.cs` files into it
-5. Call script with required parameters in PowerShell: `il2cpp.ps1 [sourceFileWithoutExtension,...] [unityVersionOrFullPath] [ndkVersionOrFullPath] [target,...]`
+5. Call script with required parameters in PowerShell
+```
+il2cpp.ps1 [sourceFileWithoutExtension,...] [unityVersionOrFullPath] [ndkVersionOrFullPath] [target,...]
+``` 
 6. It should create next dirs:
     1. `TestAssemblies` - contains compiled dll's
     2. `TestBinaries` - contains compiled binary for specified targets (x86, x64, armv7 or arm64)
