@@ -1,0 +1,9 @@
+.vscode
+
+TestSources
+TestBinaries
+TestAssemblies
+TestCpp
+
+android_ndk_search_path.txt
+unity_search_path.txt
