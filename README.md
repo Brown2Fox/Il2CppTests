@@ -28,10 +28,10 @@ il2cpp.ps1 [sourceFileWithoutExtension,...] [unityVersionOrFullPath] [ndkVersion
 
 #### Usage example
 
-1. Suppose file `unity_search_path.txt` contains `C:\Program Files\Unity\Hub\Editor` and that path contains `2019.4.33f` directory
-2. Suppose file `android_ndk_search_path.txt` contains `C:\Users\Brown2Fox\DevTools\Android\Ndk` and that path contains `android-ndk-r19c` directory
+1. Suppose in file `unity_search_path.txt` specified `C:\Program Files\Unity\Hub\Editor` path and that path contains `2019.4.33f` directory (with installed Unity, ofc)
+2. Suppose in file `android_ndk_search_path.txt` specified `C:\Users\Brown2Fox\DevTools\Android\Ndk` path and that path contains `android-ndk-r19c` directory (with installed NDK, ofc)
 3. Suppose directory `TestSources` contains file `MyTest.cs`
-3. Then we call in PowerShell command `il2cpp.ps1 MyTest 2019.4.33* *r19c armv7` and get result
+3. Then we call in PowerShell command `il2cpp.ps1 MyTest 2019.4.33* *r19c armv7` and get the result
 
 ## Some other notes
 
