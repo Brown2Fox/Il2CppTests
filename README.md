@@ -14,8 +14,8 @@ Based on [il2cpp.ps1](https://github.com/djkaty/Il2CppInspector/blob/master/Il2C
 Read script yourself for more understanding. Or read the articles above.
 
 1. Clone repo or just download the [il2cpp.ps1](https://github.com/Brown2Fox/Il2CppTests/blob/master/il2cpp.ps1) file to directory you want
-2. _(Optional, but recommended)_ Create `unity_search_path.txt` and paste Unity installation directory path (usually `C:\Program Files\Unity\Hub\Editor`) to it
-3. _(Optional, but recommended)_ Create `android_ndk_search_path.txt` and paste Android NDK directory path to it
+2. Create `unity_search_path.txt` and paste Unity installation directory path (usually `C:\Program Files\Unity\Hub\Editor`) to it _(Optional, but recommended)_
+3. Create `android_ndk_search_path.txt` and paste Android NDK directory path to it _(Optional, but recommended)_
 4. Create directory `TestSources` and place your `.cs` files into it
 5. Call script with required parameters in PowerShell: `il2cpp.ps1 [sourceFileWithoutExtension,...] [unityVersionOrFullPath] [ndkVersionOrFullPath] [target,...]`
 6. It should create next dirs:
