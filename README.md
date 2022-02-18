@@ -39,4 +39,4 @@ il2cpp.ps1 [sourceFileWithoutExtension,...] [unityVersionOrFullPath] [ndkVersion
 * Remove `UnityEngine.CoreModule.dll` from `$csrefs` var in script if you want test simple C# without Unity's stuff (and for speeding up binary compilation time)
 * Resulting cpp files can varies depending on `csc` and `il2cpp` compilation options
   * By default for `csc` specified `-optimize+` option and for `il2cpp` specified `--configuration=ReleasePlus` option
-  * Tweak script for change this behavior
+  * Tweak script to change this behavior
